@@ -1,0 +1,78 @@
+a {
+    text-decoration: none;
+}
+
+div {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.ol__li_orange {
+    font-size: 20px;
+    color: rgba(255, 166, 0, 0.856);
+}
+
+.andIAm {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(0, 174, 255, 0.815);
+}
+
+#id-one {
+    color: green;
+}
+
+ul li {
+    width: 250px;
+    padding: 5px;
+    margin: 2px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+.h2__ul li a {
+    color: blue;
+}
+
+.h2__ol>.li__h2 {
+    background-color: goldenrod;
+    width: 300px;
+    padding: 3px;
+    margin: 4px;
+    border: 3px solid rgb(0, 255, 85);
+    border-radius: 10px;
+}
+
+span+span {
+    font-size: 40px;
+    display: block;
+}
+
+span~.sister {
+    width: 500px;
+    background-color: lightcoral;
+}
+
+.group1,
+.group2 {
+    margin: 50px;
+    color: lightcoral;
+    font-size: 20px;
+}
+
+input[type="text"] {
+    background-color: rgba(224, 201, 68, 0.432);
+}
+
+button[type="submit"] {
+    border-radius: 10px;
+}
+
+[data-groups="3"] {
+    color: cornflowerblue;
+    font-size: 25px;
+}
+
+* h3{
+    color: rgba(129, 15, 158, 0.938);
+}

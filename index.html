@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Варианты использования селекторов:</h1>
+    <div>
+        <h2>Селекторы типа, по классам, по id и варианты наименования классов</h2>
+        <ol class="h2__ol">
+            <li><a href="">Cелектор типа тут все теги а</a></li>
+            <li class="ol__li_orange">Я селектор класс (БЭМ)</li>
+            <li class="ol__li_orange andIAm">Я селектор с несколькими классами(camelCase)</li>
+            <li id="id-one">Я идентификатор(Именования класса через тире)</li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Селектор потомков</h2>
+        <ul class="p__ul">
+            <li><a href="">Селектор 1</a></li>
+            <li><a href="">Селектор 2</a></li>
+            <li><a href="">Селектор 3</a></li>
+        </ul>
+    </div>
+
+    <div>
+        <h2>Дочерний селектор</h2>
+        <ol class="p__ol">
+            <li class="li__h2"><a href="">Селектор 1</a></li>
+            <li class="li__h2"><a href="">Селектор 2</a></li>
+            <li class="li__h2"><a href="">Селектор 3</a></li>
+        </ol>
+    </div>
+
+    <div>
+        <h2>Сестринский селектор и общий селектор смежных элементов</h2>
+
+        <section>
+            <span>1.Селектор 1</span>
+            <span>2.Сестра селектора 1</span>
+            <span class="sister">3.Сестра селектора 1</span>
+            <span class="sister">4.Сестра селектора 1</span>
+        </section>
+    </div>
+
+    <div>
+        <h2>Группирующий селектор и 14.Селекторы атрибутов CSS3</h2>
+        <section class="group1">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat officiis quis perspiciatis, nemo
+            incidunt ipsam vitae, veritatis tempore iusto repudiandae magni. Voluptates facere at ullam perferendis,
+            fugit perspiciatis porro!
+        </section>
+
+        <section class="group2">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat officiis quis perspiciatis, nemo
+            incidunt ipsam vitae, veritatis tempore iusto repudiandae magni. Voluptates facere at ullam perferendis,
+            fugit perspiciatis porro!
+        </section>
+
+        <section class="group3" data-groups="3">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime placeat officiis quis perspiciatis, nemo
+            incidunt ipsam vitae, veritatis tempore iusto repudiandae magni. Voluptates facere at ullam perferendis,
+            fugit perspiciatis porro!
+        </section>
+    </div>
+
+    <div>
+        <h2>14.Селектор атрибутов</h2>
+        <form action="order.php">
+            <input type="text" name="username" placeholder="Your name">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <div>
+        <h2>15.Универсальный селектор</h2>
+        <article>
+            <h3>Заголовок</h3>
+            <h3>Заголовок</h3>
+            <h3>Заголовок</h3>
+            <h3>Заголовок</h3>
+        </article>
+    </div>
+</body>
+
+</html>
